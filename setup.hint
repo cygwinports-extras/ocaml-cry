@@ -1,0 +1,4 @@
+category: Audio OCaml
+requires: ocaml
+sdesc: "OCaml low-level ShoutCast implementation"
+ldesc: "OCaml low-level ShoutCast implementation"

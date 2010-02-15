@@ -1,0 +1,45 @@
+ocaml-cry
+------------------------------------------
+OCaml low-level ShoutCast implementation
+
+Runtime requirements:
+  ocaml-3.11.2-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.7.1-1
+  binutils-2.19.51-1
+  cygport-0.9.80-1
+  gcc4-core-4.3.4-3
+  make-3.81-2
+  ocaml-findlib-1.2.5-1
+
+Canonical website:
+  http://savonet.sourceforge.net/wiki/OCamlLibs
+
+Canonical download:
+  http://downloads.sourceforge.net/savonet/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ocaml-cry-0.1.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ocaml-cry-0.1.2-X.cygport all
+
+This will create:
+  /usr/src/ocaml-cry-0.1.2-X-src.tar.bz2
+  /usr/src/ocaml-cry-0.1.2-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.1.2-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

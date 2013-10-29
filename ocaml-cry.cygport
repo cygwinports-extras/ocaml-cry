@@ -1,0 +1,17 @@
+inherit ocaml
+
+NAME="ocaml-cry"
+VERSION=0.2.2
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="OCaml low-level ShoutCast implementation"
+DESCRIPTION="OCaml low-level ShoutCast implementation"
+HOMEPAGE="http://savonet.sourceforge.net/"
+SRC_URI="mirror://sourceforge/savonet/${NAME}-${VERSION}.tar.gz"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygconf
+	cygmake -j1
+}

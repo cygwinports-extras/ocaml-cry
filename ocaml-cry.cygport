@@ -2,7 +2,7 @@ inherit ocaml
 
 NAME="ocaml-cry"
 VERSION=0.2.2
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="OCaml low-level ShoutCast implementation"
 DESCRIPTION="OCaml low-level ShoutCast implementation"
